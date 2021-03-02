@@ -1,0 +1,21 @@
+@import '../../assets/colors.scss';
+
+.player {
+  width: 90vw;
+  height: calc(90vw / 1.77);
+  position: relative;
+  margin: auto;
+  background-color: $primary;
+
+  @media screen and (min-width: 1280px) {
+    width: 75vw;
+    height: calc(75vw / 1.77); // 1.77 == 16/9
+    position: absolute;
+    right: 0;
+  }
+
+  iframe {
+    height: 100%;
+    width: 100%;
+  }
+}

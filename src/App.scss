@@ -1,0 +1,36 @@
+@import './assets/colors.scss';
+
+.App {
+  .app-header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100vw;
+    background-color: $primary;
+
+    .logo-name {
+      display: flex;
+      position: absolute;
+      height: 50px;
+
+      h1 {
+        padding: 0;
+        align-self: center;
+        font-weight: 200;
+        user-select: none;
+      }
+
+      .logo {
+        height: 80%;
+        align-self: center;
+        user-select: none;
+      }
+    }
+  }
+
+  .main {
+    margin: 50px 0 0 0;
+    width: 100vw;
+  }
+}

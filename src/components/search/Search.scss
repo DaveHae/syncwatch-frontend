@@ -1,0 +1,39 @@
+@import '../../assets/colors.scss';
+
+.search-wrapper {
+  margin: auto;
+  width: 50%;
+  display: flex;
+
+  .search-input {
+    height: 25px;
+    width: 90%;
+    align-self: center;
+    border: none;
+    border-radius: 0;
+    padding: 0 2%;
+    outline: 0;
+    font-family: 'Roboto';
+  }
+
+  button {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    border: none;
+    border-radius: 0;
+    background-color: $primary-contrast;
+    width: 10%;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+
+    &:hover {
+      background-color: $background;
+
+      .MuiSvgIcon-root {
+        color: $primary-font;
+      }
+    }
+  }
+}
