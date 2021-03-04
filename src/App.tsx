@@ -3,7 +3,7 @@ import './App.scss';
 import Search from './components/search/Search';
 import Player from './components/player/Player';
 import Queue from './components/queue/Queue';
-import Video from './model/Video';
+import Video from './model/Video.model';
 import { io } from 'socket.io-client';
 const ENDPOINT = 'http://127.0.0.1:7000';
 

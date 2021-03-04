@@ -3,7 +3,7 @@ import './Search.scss';
 import AddIcon from '@material-ui/icons/Add';
 import AssignmentIcon from '@material-ui/icons/Assignment';
 
-function Search() {
+const Search = () => {
   const [url, setUrl] = useState('');
 
   const pasteAdd = async () => {
@@ -42,6 +42,6 @@ function Search() {
       </button>
     </div>
   );
-}
+};
 
 export default Search;

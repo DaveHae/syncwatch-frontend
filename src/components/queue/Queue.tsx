@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from '../../model/Video';
+import Video from '../../model/Video.model';
 import './Queue.scss';
 
 interface IProps {

@@ -4,7 +4,7 @@ interface IProps {
   url: string;
 }
 
-function Player(props: IProps) {
+const Player = (props: IProps) => {
   return (
     <div className="player">
       <iframe
@@ -16,6 +16,6 @@ function Player(props: IProps) {
       ></iframe>
     </div>
   );
-}
+};
 
 export default Player;
